@@ -12,7 +12,7 @@ import {
   StyledGrid,
 } from './styles'
 
-export const Home: React.FC<{}> = () => {
+export const Home: React.FC<unknown> = () => {
   return (
     <StyledContainer>
       <Head>
@@ -46,9 +46,7 @@ export const Home: React.FC<{}> = () => {
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </StyledCardAnchor>
 
-          <StyledCardAnchor
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          >
+          <StyledCardAnchor href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
             <h2>Deploy &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </StyledCardAnchor>

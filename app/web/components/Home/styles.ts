@@ -128,7 +128,7 @@ export const StyledCardAnchor = styled.a`
   & h2 {
     ${StyledCardAnchorHeadingCss}
   }
-  
+
   & p {
     ${StyledCardAnchorParagraphCss}
   }

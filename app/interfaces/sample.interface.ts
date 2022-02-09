@@ -1,3 +1,3 @@
 export interface ISample {
-    name: string
+  name: string
 }

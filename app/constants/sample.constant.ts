@@ -1,3 +1,3 @@
 export const sample = Object.freeze({
-    name: 'John Doe'
+  name: 'John Doe',
 })
